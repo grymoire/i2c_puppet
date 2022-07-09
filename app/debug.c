@@ -31,7 +31,7 @@ static struct key_lock_callback key_lock_callback ={ .func = key_lock_cb };
 
 static void touch_cb(int8_t x, int8_t y)
 {
-	printf("%s: x: %d, y: %d !\r\n", __func__, x, y);
+  	printf("%s: x: %d, y: %d !\r\n", __func__, x, y);
 }
 static struct touch_callback touch_callback = { .func = touch_cb };
 
